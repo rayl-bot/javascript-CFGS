@@ -1,0 +1,33 @@
+#food {
+	position: absolute;
+	width: 1100px;
+	height: 550px;
+}
+
+#ocultar {
+	position: absolute;
+	width: 1100px;
+	height: 550px;
+	left: 2000px;
+}
+
+#cambiar{
+	float: right;
+}
+
+#owl-carousel .item{
+  margin: 3px;
+}
+
+#general {
+	height: 600px;
+}
+
+#carrousel{
+	height: 500px;
+}
+
+.imgs {
+	width: 700px;
+	height: 400px;
+}

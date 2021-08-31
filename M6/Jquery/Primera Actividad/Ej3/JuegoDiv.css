@@ -1,0 +1,11 @@
+body {
+	width: 99%;
+	height: 770px;
+}
+
+#mov {
+	width: 20%;
+	height: 20%;
+	background-color:black; 
+	position: relative;
+}

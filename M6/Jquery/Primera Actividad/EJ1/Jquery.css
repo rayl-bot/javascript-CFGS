@@ -1,0 +1,38 @@
+body {
+	width: 99%;
+	height: 770px;
+}
+#rojo {
+	width: 50%;
+	height: 50%;
+	background-color: red;
+	float:left;
+}
+
+#azul {
+	width: 50%;
+	height: 50%;
+	background-color: blue;
+	float:right;
+}
+
+#negro {
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	float:left;
+}
+
+#naranja {
+	width: 50%;
+	height: 50%;
+	background-color: orange;
+	float:right;
+}
+
+.div2 {
+	width:200px;
+	height: 70px;
+	background-color: white;
+	margin: 2%;
+}

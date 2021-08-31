@@ -1,0 +1,92 @@
+body {
+	background-color: #DAD6D6;
+
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+nav {
+	float:center;
+	margin-left: 300px;
+}
+
+div {
+	text-align: justify;
+}
+
+h3 {
+	color: #0C2F83;
+}
+
+div {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 50px;
+}
+
+.normal{
+	background-color:#2D2E31;
+	float: left;
+	padding-top:10px;
+	padding-bottom: 20px;
+	padding-left:100px ;
+	padding-right: 100px; 
+	list-style: none;
+}
+
+#main{
+	margin-left:300px;
+}
+
+footer {
+	margin-top:20px ;
+	margin-left:650px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+.nuevas {
+	background-color: #2D2E31;
+	text-align: left;
+	float: center	;
+	/*margin-left:414px;*/
+	padding: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	list-style: none;
+}
+
+#oculto {
+	display: none;
+	position: absolute;
+}
+
+#galeria{
+	margin-top: 50px;
+	margin-left: 300px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+}
+
+div#formulario {
+	margin-left: 300px;
+}
+
+form {
+	border: 1px solid black;
+	margin-right: 290px;
+}
+
+table, tr, td {
+	border: 1px solid black;
+}

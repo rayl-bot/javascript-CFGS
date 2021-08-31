@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Divs Jquery</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#mostrar").click(function(){
+				$("#div1").hide();
+				$("#div2").fadeOut();
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<h1>Divs Jquery</h1>
+	<div id="div1">
+		<p>Esto es el div 1(jquery)</p>	
+	</div>
+	<div id="div2">
+		<p>Esto es el div 2(jquery)</p>	
+	</div>
+	<form name= "main">
+		<input type="button" id="mostrar" value="Ocultar">
+	</form>
+</body>
+</html>

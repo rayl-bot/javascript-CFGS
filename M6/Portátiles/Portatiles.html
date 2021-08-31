@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cssportatiles.css">
+	<script type="text/javascript" src="codportatiles.js"></script>
+	<title>Portatiles</title>
+</head>
+<body>
+	<header>
+		<h1>Portátiles</h1>
+	</header>
+		<nav id="menu">
+			<ul>
+				<li class="normal"><a href="#">Inicio</a></li>
+				<li class="normal"><a href="#">Contacto</a></li>
+				<li id="seccion" class="normal"><a href="#">Productos</a>
+
+				<ul id="oculto">
+					<li class="nuevas"><a href="#basico">Portatiles basicos</a></li>
+					<li class="nuevas"><a href="#gaming">Portatiles gaming</a></li>
+					<li class="nuevas"><a href="#ultrabooks">Ultrabooks</a></li>
+				</ul>
+			</li>
+			</ul>
+		</nav>
+		<div id="galeria">
+			<img id="basico" src="portatilesbasicos.jpg">
+			<img id="gaming" src="potatilgaming.png">
+			<img id="ultra" src="ultrabook.png">
+		</div>
+	<div id="main">
+		<section id="sec2">
+			<article id ="at1">
+				<h3>Portátiles básicos</h3>
+				<p>Es un dispositivo informático que se puede mover o transportar con relativa facilidad.</p>
+			</article>
+			<article id ="at2">
+				<h3>Portátiles Gaming</h3>
+				<p>Los ordenadores gaming són portatiles básicos con mejores especificaciones, especializados en jugar.</p>
+			</article>
+			<article id="at3">
+				<h3>Ultrabooks</h3>
+				<p>Un ultrabook es un tipo de ordenador portátil que se caracteriza por ser extremadamente ligero y delgado.</p>
+			</article>
+		</section>
+	</div>
+	<div id="formulario">
+		<p>Rellena el siguiente formulario:</p>
+		<form action="/action_page.php">
+  			Marca:<br>
+  			<input type="text" id="marca">
+  			<br>
+  			Modelo:<br>
+  			<input type="text" id="modelo">
+  			<br>
+  			Modelo CPU:<br>
+  			<input type="text" id="modcpu">
+  			<br>
+  			Capacidad RAM:<br>
+  			<input type="number" id="capram">
+  			<br>
+  			Tipo de disco duro<br>
+  			<input type="text" id="tdd">
+  			<br>
+  			Capacidad del disco duro(GB):<br>
+  			<input type="number" id="capdd">
+  			<br>
+  			Medida de pantalla:(Px x Px)<br>
+  			<input type="text" id="pixeles">
+  			<br>
+  			<input type="button" id="enviar" value="Enviar"><input type="button" id="tabla" value="Tabla">
+  			<p id="mtabla"></p>
+		</form> 
+	</div>
+	<footer>
+			<p>Práctica M6 ©</p>
+			<p id="mostrar"></p>
+	</footer>
+</body>
+</html>
